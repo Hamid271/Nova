@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacist Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Pharmacist Dashboard</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prescription ID</th>
+                    <th>Patient Name</th>
+                    <th>Medication</th>
+                    <th>Dosage</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for prescription in prescriptions %}
+                <tr>
+                    <td>{{ prescription[0] }}</td>
+                    <td>{{ prescription[1] }}</td>
+                    <td>{{ prescription[2] }}</td>
+                    <td>{{ prescription[3] }}</td>
+                    <td>
+                        <form action="/approve/{{ prescription[0] }}" method="post">
+                            <button type="submit">Approve</button>
+                        </form>
+                        <form action="/reject/{{ prescription[0] }}" method="post">
+                            <button type="submit" class="reject">Reject</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

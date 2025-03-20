@@ -1,0 +1,70 @@
+2025-03-20 13:57:26,870 - pharmacy-bot - INFO - Starting Pharmacy First WAX bot on 0.0.0.0:5000
+2025-03-20 13:57:26,941 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.105.39:5000
+2025-03-20 13:57:26,943 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-20 13:57:26,952 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 13:57:30,984 - pharmacy-bot - INFO - Starting Pharmacy First WAX bot on 0.0.0.0:5000
+2025-03-20 13:57:31,008 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 13:57:31,030 - werkzeug - INFO -  * Debugger PIN: 106-558-810
+2025-03-20 13:57:34,870 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:57:34] "GET / HTTP/1.1" 200 -
+2025-03-20 13:57:35,213 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:57:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-20 13:57:35,262 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:57:35] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-03-20 13:57:37,423 - pharmacy-bot - INFO - Received message with length: 2
+2025-03-20 13:57:40,866 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:57:40,912 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:57:40] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:57:45,838 - pharmacy-bot - INFO - Received message with length: 33
+2025-03-20 13:57:55,580 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:57:55,587 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:57:55] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:57:58,584 - pharmacy-bot - INFO - Received message with length: 13
+2025-03-20 13:58:02,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:58:02,703 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:58:02] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:58:03,186 - pharmacy-bot - INFO - Received message with length: 31
+2025-03-20 13:58:05,334 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:58:05,342 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:58:05] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:58:05,986 - pharmacy-bot - INFO - Received message with length: 32
+2025-03-20 13:58:07,301 - pharmacy-bot - INFO - Received message with length: 13
+2025-03-20 13:58:08,475 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:58:08,499 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:58:08] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:58:09,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:58:09,324 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:58:09] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:59:40,844 - pharmacy-bot - INFO - Received message with length: 31
+2025-03-20 13:59:41,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:59:41,983 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:59:41] "POST /chat HTTP/1.1" 200 -
+2025-03-20 13:59:47,855 - pharmacy-bot - INFO - Received message with length: 31
+2025-03-20 13:59:49,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 13:59:49,221 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 13:59:49] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:00:06,189 - pharmacy-bot - INFO - Received message with length: 45
+2025-03-20 14:00:13,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:00:13,458 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:00:13] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:00:57,268 - pharmacy-bot - INFO - Received message with length: 232
+2025-03-20 14:01:00,897 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:01:00,897 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:01:00] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:01:10,600 - pharmacy-bot - INFO - Received message with length: 116
+2025-03-20 14:01:13,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:01:13,784 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:01:13] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:01:22,749 - pharmacy-bot - INFO - Received message with length: 201
+2025-03-20 14:01:25,677 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:01:25,704 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:01:25] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:01:33,194 - pharmacy-bot - INFO - Received message with length: 274
+2025-03-20 14:01:36,965 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:01:36,965 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:01:36] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:01:53,967 - pharmacy-bot - INFO - Received message with length: 163
+2025-03-20 14:01:57,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:01:57,592 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:01:57] "POST /chat HTTP/1.1" 200 -
+2025-03-20 14:02:06,985 - pharmacy-bot - INFO - Received message with length: 35
+2025-03-20 14:02:09,782 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 14:02:09,800 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 14:02:09] "POST /chat HTTP/1.1" 200 -
+2025-03-20 15:57:12,376 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 15:57:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-03-20 15:57:17,236 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 15:57:17] "GET / HTTP/1.1" 200 -
+2025-03-20 15:57:17,312 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 15:57:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-03-20 15:57:17,324 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 15:57:17] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-03-20 15:57:22,803 - pharmacy-bot - INFO - Received message with length: 5
+2025-03-20 15:57:25,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 15:57:25,697 - werkzeug - INFO - 127.0.0.1 - - [20/Mar/2025 15:57:25] "POST /chat HTTP/1.1" 200 -
+2025-03-20 16:00:54,969 - werkzeug - INFO -  * Detected change in 'C:\\Users\\USER\\Downloads\\pharmacy chatbot\\chatbot.py', reloading
+2025-03-20 16:00:55,317 - werkzeug - INFO -  * Restarting with stat
+2025-03-20 16:01:01,582 - pharmacy-bot - INFO - Starting Pharmacy First Nova bot on 0.0.0.0:5000
+2025-03-20 16:01:01,620 - werkzeug - WARNING -  * Debugger is active!
+2025-03-20 16:01:01,649 - werkzeug - INFO -  * Debugger PIN: 106-558-810
